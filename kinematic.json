@@ -3,15 +3,15 @@
   "viewers": [
     {
       "path": "genbank/**.gb",
-      "loader": "http://127.0.0.1:3000/frames/genbank-frame"
+      "loader": "https://alpha.kinematic.dev/frames/genbank-frame"
     },
     {
       "path": "**/*.md",
-      "loader": "http://127.0.0.1:3000/frames/markdown-frame"
+      "loader": "https://alpha.kinematic.dev/frames/markdown-frame"
     },
     {
       "path": "**/*",
-      "loader": "http://127.0.0.1:3000/frames/echo-frame"
+      "loader": "https://alpha.kinematic.dev/frames/echo-frame"
     }
   ]
 }
