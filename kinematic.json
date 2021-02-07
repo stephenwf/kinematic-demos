@@ -1,4 +1,5 @@
 {
+  "@context": "https://kinematic.io/api/alpha/context.json",
   "viewers": [
     {
       "path": "genbank/**.gb",
