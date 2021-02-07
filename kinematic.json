@@ -1,0 +1,16 @@
+{
+  "viewers": [
+    {
+      "path": "genbank/**.gb",
+      "loader": "http://127.0.0.1:3000/frames/genbank-frame"
+    },
+    {
+      "path": "**/*.md",
+      "loader": "http://127.0.0.1:3000/frames/markdown-frame"
+    },
+    {
+      "path": "**/*",
+      "loader": "http://127.0.0.1:3000/frames/echo-frame"
+    }
+  ]
+}
