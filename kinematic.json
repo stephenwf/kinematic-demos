@@ -2,6 +2,10 @@
   "@context": "https://kinematic.io/api/alpha/context.json",
   "viewers": [
     {
+      "path": "manifests/**.json",
+      "loader": "https://y5wmq.csb.app/"
+    },
+    {
       "path": "genbank/**.gb",
       "loader": "https://alpha.kinematic.dev/frames/genbank-frame"
     },
